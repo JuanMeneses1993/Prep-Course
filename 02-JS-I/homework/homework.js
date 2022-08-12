@@ -7,7 +7,7 @@ const nuevaString = "Lo que quiero";
 const nuevoNum = 4522;
 
 // Crea una variable booleana:
-const nuevoBool = False;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return length(str1) === length (str2)
+  return str1.length === str2.length 
   
 }
 
@@ -160,10 +160,15 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (num <= 0){
-    return 'Es negativo'
-  }else return 'Es positivo'
+
+
+  if (numero == 0){
+    return false
   
+  }else if (numero < 0) return 'Es negativo'; 
+  
+  else return 'Es positivo'
+   
 }
 
 function agregarSimboloExclamacion(str) {
@@ -228,10 +233,10 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   vocales = ['a', 'e', 'i', 'o', 'u'];
-  if (length(letra) > 1) {
+  if ( letra.length > 1) {
     return 'Dato incorrecto'
   }
-  if (vocales.find(letra) == -1)
+  if (vocales.indexOf(letra) == -1)
     return 'Dato incorrecto'
   else return 'Es vocal'
   
