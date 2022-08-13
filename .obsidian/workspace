@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01c-Conceptos/README.md",
+            "file": "04-JS-III/README.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01c-Conceptos/README.md",
+                "file": "04-JS-III/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01c-Conceptos/README.md",
+                "file": "04-JS-III/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01c-Conceptos/README.md"
+                "file": "04-JS-III/README.md"
               }
             }
           }
@@ -130,10 +130,11 @@
   },
   "active": "653589ae7f68e753",
   "lastOpenFiles": [
+    "00-PrimerosPasos/README.md",
+    "01a-Git/homework/README.md",
+    "01c-Conceptos/README.md",
     "02-JS-I/homework/Tarea.md",
     "02-JS-I/homework/README.md",
-    "00-PrimerosPasos/README.md",
-    "02-JS-I/README.md",
-    "01c-Conceptos/README.md"
+    "02-JS-I/README.md"
   ]
 }

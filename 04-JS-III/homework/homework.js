@@ -59,8 +59,8 @@ function dePalabrasAFrase(palabras) {
   // Tu código:
   let frase = ''
   
-  for (index in palabras){
-    frase += (palabras[index] + ' ');
+  for (palabra of palabras){
+    frase += (palabra + ' ');
   }
   let formated = frase.trimEnd();
 
